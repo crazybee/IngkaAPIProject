@@ -1,0 +1,6 @@
+@IngkaAPIProject_HostAddress = http://localhost:5030
+
+GET {{IngkaAPIProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngkaAPIProject", "IngkaAPIProject\IngkaAPIProject.csproj", "{CA94C085-3ECC-48F4-A52B-FBAE5B1738BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "APITests\APITests.csproj", "{BB235AAB-7068-4676-AE81-C747369E9F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA94C085-3ECC-48F4-A52B-FBAE5B1738BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA94C085-3ECC-48F4-A52B-FBAE5B1738BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA94C085-3ECC-48F4-A52B-FBAE5B1738BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA94C085-3ECC-48F4-A52B-FBAE5B1738BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB235AAB-7068-4676-AE81-C747369E9F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB235AAB-7068-4676-AE81-C747369E9F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB235AAB-7068-4676-AE81-C747369E9F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB235AAB-7068-4676-AE81-C747369E9F66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
