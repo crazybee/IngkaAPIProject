@@ -1,6 +1,6 @@
 import requests
 
-API_BASE_URL = "https://your-api-url.com/api/price"
+API_BASE_URL = ""
 API_KEY = ""
 
 headers = {
