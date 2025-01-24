@@ -1,7 +1,7 @@
 using IngkaAPIProject.Controllers;
-using IngkaAPIProject.Models;
-using IngkaAPIProject.Mocks;
+using DataSource.Models;
 using Microsoft.AspNetCore.Mvc;
+using DataSource.Mocks;
 namespace APITests
 {
 
@@ -32,7 +32,7 @@ namespace APITests
             var controller = new PriceController();
             var startDate = new DateTime(2025, 1, 14);
             var endDate = new DateTime(2025, 1, 20);
-            var expectedCount = 6;
+            var expectedCount = 1;
             // Act
             var result = controller.GetPricesByDateRange(startDate, endDate) as OkObjectResult;
 

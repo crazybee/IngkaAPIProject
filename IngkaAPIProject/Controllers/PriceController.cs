@@ -1,4 +1,5 @@
-﻿using IngkaAPIProject.Mocks;
+﻿
+using DataSource.SimulatedData;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,14 +13,14 @@ namespace IngkaAPIProject.Controllers
         [Authorize]
         public IActionResult GetAllPrices()
         {
-            return Ok(MockedItems.MockPrices);
+            return Ok(SimulatedItems.MockPrices);
         }
 
         [HttpGet("filter")]
         [Authorize]
         public IActionResult GetPricesByDateRange([FromQuery] DateTime startDate, [FromQuery] DateTime endDate)
         {
-            var filteredPrices = MockedItems.MockPrices
+            var filteredPrices = SimulatedItems.MockPrices
                 .Where(p => p.Date >= startDate && p.Date <= endDate)
                 .ToList();
 

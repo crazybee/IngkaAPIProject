@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngkaAPIProject", "IngkaAPI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "APITests\APITests.csproj", "{BB235AAB-7068-4676-AE81-C747369E9F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSource", "DataSource\DataSource.csproj", "{904B811D-F6A8-402A-A90F-5922DF09C00B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IntegrationTests", "IntegrationTests\IntegrationTests.pyproj", "{DF0AC37F-3480-4FF8-A579-A325533DDC26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,12 @@ Global
 		{BB235AAB-7068-4676-AE81-C747369E9F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB235AAB-7068-4676-AE81-C747369E9F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB235AAB-7068-4676-AE81-C747369E9F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904B811D-F6A8-402A-A90F-5922DF09C00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904B811D-F6A8-402A-A90F-5922DF09C00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904B811D-F6A8-402A-A90F-5922DF09C00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904B811D-F6A8-402A-A90F-5922DF09C00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0AC37F-3480-4FF8-A579-A325533DDC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0AC37F-3480-4FF8-A579-A325533DDC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
